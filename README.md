@@ -2,8 +2,8 @@
 
 **Microbiome analysis pipeline for colonial ascidian zooid–tunic compartments and interspecific interaction borders in Tauranga Harbour, New Zealand.**
 
-> **Manuscript**: [Draft Title] Tissue-specific microbiome in colonial ascidians: are zooids more than filter-feeding vessels?
-> **Authors**: Shir Livne Fadlon, Mafalda S. Baptista, Michele Prinsep, Christopher N. Battershill, Charles K. Lee
+> **Manuscript**: [Draft Title] Tissue-specific microbiome in colonial ascidians: are zooids more than filter-feeding vessels?  
+> **Authors**: Shir Livne Fadlon, Mafalda S. Baptista, Michele Prinsep, Christopher N. Battershill, Charles K. Lee  
 > **Citation**: *[Journal, Year, DOI Placeholder]*  
 > **Code Archive (Zenodo)**: `https://doi.org/10.5281/zenodo.XXXXXXX` *(placeholder)*  
 > **Raw Sequencing Data (ENA)**: Study Accession `PRJEBXXXXXX` *(placeholder)*  

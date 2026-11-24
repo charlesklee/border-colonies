@@ -1,0 +1,14 @@
+data/fastq_raw/
+data/fastq_trimmed/
+data/reference/*.fa.gz
+data/reference/*.fna.gz
+data/reference/*.fasta
+output/intermediate/
+output/tables/
+output/figures/
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+.DS_Store

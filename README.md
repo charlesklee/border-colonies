@@ -2,8 +2,8 @@
 
 **Microbiome analysis pipeline for colonial ascidian zooid–tunic compartments and interspecific interaction borders in Tauranga Harbour, New Zealand.**
 
-> **Manuscript**: *[Manuscript Title Placeholder]*  
-> **Authors**: *[Author List Placeholder]*  
+> **Manuscript**: [Draft Title] Tissue-specific microbiome in colonial ascidians: are zooids more than filter-feeding vessels?
+> **Authors**: Shir Livne Fadlon, Mafalda S. Baptista, Michele Prinsep, Christopher N. Battershill, Charles K. Lee
 > **Citation**: *[Journal, Year, DOI Placeholder]*  
 > **Code Archive (Zenodo)**: `https://doi.org/10.5281/zenodo.XXXXXXX` *(placeholder)*  
 > **Raw Sequencing Data (ENA)**: Study Accession `PRJEBXXXXXX` *(placeholder)*  
@@ -66,7 +66,7 @@ border-colonies/
 
 ## 3. Software Requirements & Installation
 
-Pinned environment used for all reported manuscript results (Debian GNU/Linux 12, `x86_64`; full dump in [`sessionInfo.txt`](sessionInfo.txt)):
+Environment used for all reported manuscript results (Debian GNU/Linux 12, `x86_64`; full dump in [`sessionInfo.txt`](sessionInfo.txt)):
 
 - **R**: `4.2.2 Patched (2022-11-10 r83330)`
 - **Core R / Bioconductor packages**: `dada2 1.26.0`, `decontam 1.18.0`, `phyloseq 1.42.0`, `Biostrings 2.66.0`, `microbiome 1.20.0`, `vegan 2.7-2`, `permute 0.9-10`, `quadprog 1.5-8`, `ANCOMBC 2.0.2`, `ALDEx2 1.30.0`, `Maaslin2 1.12.0`, `ggplot2 4.0.2`, `patchwork 1.3.2`, `ragg 1.2.5`, `dplyr 1.2.0`, `tidyr 1.3.2`, `sf`, `maps`, `mapdata`, `jsonlite 2.0.0`.

@@ -2,7 +2,7 @@
 # ==============================================================================
 # 00_download_ena.sh — Download Raw Paired-End FASTQ Files from ENA
 # ==============================================================================
-# Purpose : Query the ENA Portal API for study accession PRJEBXXXXXX (placeholder)
+# Purpose : Query the ENA Portal API for study accession PRJEB130768 (ERP209816)
 #           and download all 182 paired-end libraries listed in
 #           data/metadata/ena_run_map.csv into data/fastq_raw/.
 # Inputs  : data/metadata/ena_run_map.csv
@@ -11,15 +11,9 @@
 # ==============================================================================
 set -euo pipefail
 
-STUDY_ACC="${1:-PRJEBXXXXXX}"
+STUDY_ACC="${1:-PRJEB130768}"
 MAP_CSV="data/metadata/ena_run_map.csv"
 OUT_DIR="data/fastq_raw"
-
-if [[ "${STUDY_ACC}" == "PRJEBXXXXXX" ]]; then
-  echo "ERROR: Replace placeholder study accession PRJEBXXXXXX with the published ENA accession:"
-  echo "  bash scripts/00_download_ena.sh PRJEB<actual_accession>"
-  exit 1
-fi
 
 mkdir -p "${OUT_DIR}"
 echo "Fetching ENA filereport for study ${STUDY_ACC}..."

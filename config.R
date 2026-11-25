@@ -65,8 +65,8 @@ PATH_DECONTAM_REV  <- file.path(DIR_INTERIM, "decontam_review.rds")
 PATH_PHY_CANON     <- file.path(DIR_INTERIM, "ascidian_canonical.rds")
 PATH_PHY_ALL       <- file.path(DIR_INTERIM, "ascidian_canonical_allsamples.rds")
 
-# Placeholders for External APIs (fill before running BLAST / ENA download)
-ENA_STUDY_ACCESSION <- "PRJEBXXXXXX"
+# External APIs / ENA Study Accession
+ENA_STUDY_ACCESSION <- "PRJEB130768"
 NCBI_EMAIL          <- "your.email@institution.edu"
 
 # Fixed Host Species Metadata & Colour-Blind-Safe Palettes (Figs 1, 2, 3, 4)
